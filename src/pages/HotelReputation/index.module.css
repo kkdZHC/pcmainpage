@@ -1,0 +1,126 @@
+.marketPlayer {
+  width: 428px;
+  height: 680px;
+  overflow: hidden;
+  background-color: #f2f8fe;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.marketPlayer .container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+.marketPlayer .container .pcShopAd_container {
+  position: relative;
+  width: 428px;
+  height: 680px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_word {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #ffffff;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_word .pcShopAd_title {
+  height: 20px;
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_word .pcShopAd_subtitle {
+  height: 18px;
+  margin-top: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_shops {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_shops .shop_product_item {
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+  padding: 4px;
+  height: 52px;
+  width: 180px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 12px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_shops .shop_product_item .pcShopAd_shops_item_img {
+  height: 44px;
+  width: auto;
+  max-width: 44px;
+  border-radius: 4px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_shops .shop_product_item .pcShopAd_shops_item_right {
+  width: 100%;
+  padding-left: 8px;
+}
+
+.marketPlayer .container .pcShopAd_container .pcShopAd_shops .shop_product_item .pcShopAd_shops_item_right .pcShopAd_shops_item_title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 112px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #fff;
+  width: 100%;
+  text-shadow: rgb(0 0 0%) 0 0 2px;
+}
+
+.marketPlayer :global .ant-carousel .slick-dots-bottom {
+  top: 76px;
+  left: 20px;
+  display: inline-block !important;
+  display: inline-block;
+  width: auto;
+  margin: 0;
+}
+
+.marketPlayer :global .ant-carousel .slick-dots-bottom .slick-active {
+  width: 24px !important;
+  height: 8px !important;
+  background: #fff !important;
+  border-radius: 8px !important;
+  opacity: 1 !important;
+}
+
+.marketPlayer :global .ant-carousel .slick-dots-bottom .slick-active button {
+  border-radius: 8px !important;
+}
+
+.marketPlayer :global .ant-carousel .slick-dots-bottom li {
+  width: 8px;
+  height: 8px;
+  margin-right: 4px;
+  background: #ffffff;
+  border-radius: 100%;
+  opacity: 0.4;
+}
+
+.marketPlayer :global .ant-carousel .slick-dots-bottom li button {
+  width: 100%;
+  height: 100%;
+}

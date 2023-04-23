@@ -1,0 +1,47 @@
+.wrapper {
+  width: 553px;
+  background: #fff;
+  max-height: 480px;
+  border-radius: 8px 8px 8px 8px !important;
+}
+
+.wrapper .title {
+  font-size: 14px;
+  color: #666;
+  background: #f6f8fa;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 8px;
+  font-weight: 700;
+}
+
+.wrapper ul {
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+}
+
+.wrapper ul li {
+  width: 20%;
+  cursor: pointer;
+}
+
+.wrapper ul li span {
+  display: block;
+  padding: 1px 5px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0;
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wrapper ul li:hover {
+  background-color: #f0f7fd;
+}

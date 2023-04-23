@@ -1,0 +1,44 @@
+.wrap {
+    z-index: 9;
+    background: #fff;
+    width: 188px;
+    padding: 10px 8px 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .wrap .item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    padding: 0 9px 0 8px;
+    margin: 3px 0;
+    border-radius: 4px;
+  }
+  
+  .wrap .item:hover {
+    background-color: #f0f7fd;
+  }
+  
+  .wrap .hs_dr_btn {
+    border-top: 1px solid #dadfe6;
+    margin: 6px 8px 0 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #0086f6;
+  }
+  
+  .wrap .hs_dr_btn .hs_reset_span {
+    cursor: pointer;
+    padding: 16px 16px 0 0;
+  }
+  
+  .wrap .hs_dr_btn .hs_done_span {
+    cursor: pointer;
+    padding: 16px 0 0 16px;
+  }
+  

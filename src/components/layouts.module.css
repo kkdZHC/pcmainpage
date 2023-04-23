@@ -1,0 +1,20 @@
+.wrapper {
+    height: 100vh;
+    overflow: auto;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .wrapper :global .ant-layout {
+    background-color: #fff;
+  }
+  .wrapper :global .ant-menu {
+    background-color: #fff;
+    height: 100%;
+    border: 0;
+  }
+  .wrapper :global .ant-layout-sider,
+  .wrapper :global .ant-layout-sider-trigger {
+    border-right: 1px solid #f0f0f0;
+  }
+  

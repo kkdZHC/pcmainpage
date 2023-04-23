@@ -1,0 +1,65 @@
+.wrap {
+    background: #fff;
+    width: 229px;
+    padding: 20px 16px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .wrap .guest_select {
+    border-bottom: 1px solid #dadfe6;
+  }
+  
+  .wrap .guest_select .hs_child_kid {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .wrap .guest_select .hs_child_kid .hs_ck_label {
+    display: flex;
+    color: #333;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  .wrap .guest_select .hs_child_kid .hs_ck_label .hs_ck_span {
+    padding-left: 4px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .wrap .guest_select .hs_child_kid .hs_actions {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .wrap .guest_select .hs_child_kid .hs_actions .hs_count {
+    font-size: 16px !important;
+    color: #333;
+    width: 35px;
+    text-align: center;
+  }
+  
+  .wrap .hs_done {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .wrap .hs_done .hs_done_span {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    min-width: 100px;
+    padding: 16px 0 0 20px;
+    font-size: 16px;
+    color: #0086f6;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

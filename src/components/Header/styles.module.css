@@ -1,0 +1,140 @@
+.header_nav_wrapper {
+  width: 100%;
+}
+
+.header_nav_wrapper .header_nav_container {
+  width: 1180px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav {
+  height: 72px;
+  box-sizing: border-box;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .header_nav_small_wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .header_nav_small_wrap .logo_search_layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .header_nav_small_wrap .logo_search_layout .logo {
+  z-index: 10;
+  background: url(https://webresource.c-ctrip.com/ares2/nfes/pc-home/1.0.65/default/image/logo.png) no-repeat;
+  background-size: 100% 100%;
+  text-indent: -999px;
+  width: 194px;
+  height: 32px;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .header_nav_small_wrap .logo_search_layout .search {
+  margin-left: 24px;
+  width: 100%;
+  max-width: 320px;
+  min-width: 200px;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  right: 0;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .login {
+  width: 85px;
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  background: #f2f8fe;
+  border-radius: 16px 16px 16px 16px;
+  padding: 4px 8px 4px 4px;
+  cursor: pointer;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .login .login_title {
+  margin-left: 5px;
+  margin-right: 2px;
+  display: flex;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .login .header_login_icon {
+  display: flex;
+  position: relative;
+  padding: 6px 0;
+  overflow: visible;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .login :global .anticon-user {
+  border-radius: 50%;
+  width: 20px;
+  height: auto;
+  font-size: 20px;
+  color: #5678a8;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .header_register {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .header_order {
+  margin-left: 20px;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  padding: 6px 0px;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .header_order .header_order_icon {
+  display: flex;
+  position: relative;
+  padding: 6px 0;
+  overflow: visible;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .header_order .order_title {
+  margin: auto;
+  padding-left: 4px;
+  padding-right: 2px;
+  display: flex;
+  border: none;
+  outline: none;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .btn_wrap .header_icon {
+  display: flex;
+  position: relative;
+  padding: 6px 0;
+  overflow: visible;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header_nav_wrapper .header_nav_container .header_nav .vertical_line {
+  height: 20px;
+  width: 1px;
+  background-color: #dadfe6;
+  margin-left: 20px;
+}
