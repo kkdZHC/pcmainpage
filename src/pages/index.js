@@ -8,6 +8,7 @@ import HotelRecommendation from './HotelRecommendation';
 import HotelReputation from './HotelReputation';
 
 import MarketAdvert from './MarketAdvert';
+import HotelReservation from './HotelReservation';
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.left_content}>
-        
+        <HotelReservation/>
         <MarketAdvert />
         <HotelRecommendation />
       </div>
