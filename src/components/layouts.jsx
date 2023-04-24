@@ -4,9 +4,10 @@ import * as IconMap from './IconMap';
 import { useMemo } from 'react';
 import styles from './layouts.module.css';
 import Header from '/src/components/Header';
-//import { getRoutes } from '@/services/layout';
+//import { getRoutes } from './services/layout';
 import { useState, useEffect } from 'react';
 import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
+import Router from 'next/router'
 
 export default (props) => {
   const { children, location, history } = props;
@@ -21,20 +22,28 @@ export default (props) => {
   
 
 
-//   const init = async () => {
-//     const { success, data } = await getRoutes();
-//     if (success) {
-//       setRouteList(data);
-//       setOpenKeys(data?.map((item) => item.path));
-//     }
-//   };
+  // const init = async () => {
+  //   const { success, data } = await getRoutes();
+  //   if (success) {
+  //     setRouteList(data);
+  //     setOpenKeys(data?.map((item) => item.path));
+  //   }
+  // };
+  const init = async () => {
+    try {
+      let response = await fetch('http://localhost:3004/data');
+      const data = await response.json();
+      setRouteList(data);
+      setOpenKeys(data?.map((item) => item.path));   
+    }catch (error) {
+      console.log('Request Failed', error);
+    }
+    }
 
 
-
-
-  // useEffect(() => {
-  //   init();
-  // }, []);
+  useEffect(() => {
+    init();
+  }, []);
 
   const items = useMemo(() => {
     const handleRoute = (routeList) => {
@@ -61,7 +70,7 @@ export default (props) => {
     return handleRoute(routeList);
   }, [routeList]);
 
-  const handleSelect = ({ key }) => history.push(key);
+  const handleSelect = ({ key }) => Router.push(key);
 
   return (
     <Layout className={styles.wrapper}>

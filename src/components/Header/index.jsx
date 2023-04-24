@@ -1,5 +1,5 @@
 import { Input } from 'antd';
-import { useRouter } from 'next/router'
+import Router from 'next/router'
 
 import {
   CaretDownOutlined,
@@ -7,7 +7,7 @@ import {
 
 import styles from './styles.module.css';
 const { Search } = Input;
-// const router = useRouter()
+//const router = useRouter()
 
 export default () => {
   return (
@@ -16,7 +16,9 @@ export default () => {
         <div className={styles.header_nav}>
           <div className={styles.header_nav_small_wrap}>
             <div className={styles.logo_search_layout}>
-              <div className={styles.logo}/>
+              <div className={styles.logo} onClick={()=>{
+                  Router.push('/')
+              }}/>
               <div className={styles.search}>
                 <Search placeholder="搜索任何旅游相关" enterButton />
               </div>

@@ -1,0 +1,57 @@
+{
+    "data": [
+      {
+        "path": "/hotel",
+        "name": "酒店",
+        "icon":"BankOutlined",
+        "routes": [
+          {
+            "path": "/hotel/domesticHotel",
+            "name": "国内酒店",
+            "component": "@/pages/Hotel/DomesticHotel"
+          },
+          {
+            "path": "/hotel/foreignHotel",
+            "name": "国外酒店"
+          }
+        ]
+      },
+      {
+        "path": "/airTicket",
+        "name": "机票",
+        "icon":"RocketOutlined"
+      },
+      {
+        "path": "/railwayTicket",
+        "name": "火车票",
+        "icon":"AlertOutlined"
+      },
+      {
+        "path": "/travel",
+        "name": "旅游",
+        "icon":"RightSquareOutlined"
+      },
+      {
+        "path": "/guideline",
+        "name": "攻略·景点",
+        "icon":"FileTextOutlined"
+      },
+      {
+        "path": "/automobile",
+        "name": "汽车·船票",
+        "icon":"CarOutlined"
+      },
+      {
+        "path": "/tickets",
+        "name": "门票·活动",
+        "icon":"BellOutlined"
+      },
+      {
+        "path": "/useCar",
+        "name": "用车",
+        "icon":"ShakeOutlined"
+      }
+    ]
+    
+  }
+

@@ -6,9 +6,9 @@ const { Header, Content, Sider } = Layout;
 import { Input } from 'antd';
 import HotelRecommendation from './HotelRecommendation';
 import HotelReputation from './HotelReputation';
-
-import MarketAdvert from './MarketAdvert';
 import HotelReservation from './HotelReservation';
+import MarketAdvert from './MarketAdvert';
+
 
 
 
