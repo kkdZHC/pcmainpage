@@ -6,7 +6,7 @@ import SelectRoomGuest from './SelectRoomGuest';
 import { useState } from 'react';
 import classNames from 'classnames';
 const { RangePicker } = DatePicker;
-import locale from 'antd/es/date-picker/locale/zh_CN';
+//import locale from 'antd/es/date-picker/locale/zh_CN';
 import dayjs from 'dayjs';
 
 export default () => {
@@ -69,7 +69,7 @@ export default () => {
         </label>
       </div>
       <RangePicker
-        locale={locale}
+        //locale={locale}
         format="M月DD日"
         value={date}
         disabledDate={(current) =>
